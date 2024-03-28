@@ -45,7 +45,26 @@ To run this script, you need to have Python installed on your machine. Additiona
 
 - The script exports the generated cover letter to a text file, formatted as `CL - [Position] - [Company].txt`, where `[Position]` and `[Company]` are extracted from the processed data.
 
-## Note
+## Example Result
+https://bouyguestelecom-recrute.talent-soft.com/offre-de-emploi/emploi-alternance-developpeur-ia-test-f-h_47683.aspx
 
-This script demonstrates the use of the OpenAI API for generating content based on specific inputs. The quality of the output depends on the input data and the template provided. It may require manual adjustments for optimal results.
 
+Objet : Candidature pour une alternance en Développeur IA/Test F/H chez Bouygues Telecom
+
+Madame, Monsieur,
+
+Actuellement en préparation d'un Master 2 spécialisé en Big Data & Machine Learning à l'Efrei, je suis activement à la recherche d'une entreprise pour m'accueillir un an à partir d’octobre 2024. Cette expérience sera l’occasion d’enrichir ma formation théorique par une expérience pratique. C'est avec beaucoup d'enthousiasme que je vous présente ma candidature pour une alternance chez Bouygues Telecom pour le poste de Développeur IA/Test F/H.
+
+Votre entreprise est reconnue pour son engagement dans l'innovation technologique et l'excellence de ses services dans le domaine des télécommunications. Je suis particulièrement intéressé par votre approche d'intégration de l'intelligence artificielle pour améliorer et optimiser les processus, ce qui représente une opportunité inestimable de contribuer à des projets d'avant-garde.
+
+En tant que candidat passionné par les technologies de pointe, notamment en matière d'intelligence artificielle et de big data, je suis convaincu que cette alternance chez Bouygues Telecom me permettra de découvrir de nouvelles techniques et de travailler avec des professionnels expérimentés dans le domaine des systèmes d'informations. Je suis également conscient des défis inhérents à la mise en place et au développement d'interfaces utilisateur conviviales et de mécanismes de collecte de données efficaces pour le traitement du langage naturel.
+
+Mes compétences techniques, acquises au fil de mes expériences dans le développement d'applications permettant la transformation de CV en données structurées, l'automatisation des processus via Dataiku et la manipulation de Python pour divers projets, correspondent étroitement aux besoins de votre poste. La mise en œuvre de solutions cloud avec AWS, l'exploitation de Data Science et de Machine Learning pour l'analyse de données et mon intérêt pour les techniques avancées de traitement du langage naturel (NLP) mettent en avant ma capacité à contribuer au succès de vos projets en matière d'IA et de tests.
+
+Je serais honoré de pouvoir apporter mon dynamisme, ma créativité et mon expertise au sein de Bouygues Telecom et j'espère que ma candidature retiendra votre attention. Je suis convaincu que cette alternance serait une expérience professionnelle très enrichissante pour moi et que je pourrais contribuer de manière significative à vos projets d'innovation.
+
+Je vous remercie pour l'attention que vous porterez à ma candidature et je suis à votre disposition pour toute information complémentaire ou pour un entretien.
+
+Cordialement,
+
+Louis DESCLOUS
