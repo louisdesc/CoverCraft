@@ -1,0 +1,92 @@
+LOUIS DESCLOUS
+Alternance en Big Data & Machine Learning (M2)
+Contrat d’apprentissage ou professionnalisation
+Dès Octobre 2024 pour 1 an
+CONTACT
+louisdesclous@gmail.com
+linkedin.com/in/louisdesclous https://www.linkedin.com/in/louisdesclous/
+07 82 67 88 75
+Ile de France
+Permis B
+COMPÉTENCES
+Maîtrise : Python (pandas, scikit-learn,
+numpy, keras, pytorch), SQL, NoSQL, Scala
+Connaissance élémentaire : Java, R,
+Programmation
+Pack Office, Jupyter Notebook, Git, AWS
+Cloud, Azure Cloud, Docker, Notion
+Applications
+Autonome, Polyvalent, Proactif, Réfléchi
+Soft Skills
+LANGUES
+ANGLAIS : TOEIC 870/990
+ALLEMAND : Utilisation Elementaire
+Voyages
+5 pays visités seuls
+Sports
+Course, Handball
+SINGULARITÉ
+EXPÉRIENCES
+- Cloud AWS, API Gateway, S3, Lambda, DynamoDB
+- utilisation de fine-tuning et prompt engineering pour
+afiner l’ouput du Large Language Model
+Pilotage du développement d'une application destinée
+à transformer des CV en données structurées. Le projet
+implique l'extraction de données de PDF et OCR, suivie
+de l'utilisation d'intelligence artificielle (LLM) pour la
+structuration des données. Intégration d'une API pour la
+réception des CV et l'envoi des réponses, avec une mise
+en œuvre technique sur AWS en Python.
+Pilotage du développement d'une application destinée
+à transformer des CV en données structurées. Le projet
+implique l'extraction de données de PDF et OCR, suivie
+de l'utilisation d'intelligence artificielle (LLM) pour la
+structuration des données. Intégration d'une API pour la
+réception des CV et l'envoi des réponses, avec une mise
+en œuvre technique sur AWS en Python.
+2024 CONSULTANT - STARTUP
+- Montée en compétence sur Dataiku (certication
+maximale)
+Projet d'automatisation via Dataiku, production de
+rapport pour le service contentieux et traitement de
+donnée pour le Crédit-Bail Mobilier.
+Développement d'un logiciel Python pour le contrôle
+qualité de donnée avec interface graphique et
+génération automatique des résultats sur PowerPoint.
+Projet d'automatisation via Dataiku, production de
+rapport pour le service contentieux et traitement de
+donnée pour le Crédit-Bail Mobilier.
+Développement d'un logiciel Python pour le contrôle
+qualité de donnée avec interface graphique et
+génération automatique des résultats sur PowerPoint.
+2023-24 BPI FRANCE - ALTERNANCE
+- utilisation de Python, dans le contexte de la Data Science
+- travail en méthode Agile, gestion de projet
+Séminaire de 6 semaines axé sur l’application et le
+renforcement des compétences en Python et MySQL.
+Projet final : Analyse de sentiment (via NLP) pour évaluer
+les avis clients, permettant de déceler les points forts et
+faibles de produit à partir de commentaires.
+2023 MASTERCAMP - FILIÈRE DATA
+- amélioration de compétences en Python et JS
+- gestion des stocks et des livraisons (300 produits)
+Création d’une micro-société de vente de
+marchandises de luxe en B2C et B2B avec CA de 100k€.
+Développement d’un logiciel (Python) de facturation et
+d’automatisation des achats.
+2020-23 AUTO-ENTREPRENEUR
+DÉVELOPPEUR PYTHON - SOCIAL CLEAN
+Stage d’un mois, réalisation d’un programme Python
+permettant la génération d’un dashboard d’activité
+client sous format PDF avec pour entrée un fichier CSV.
+2022
+2017-23 FREELANCE DÉVELOPPEUR WEB
+2022-23 RESPONSABLE ÉVÉNEMENTS - BDS EFREI
+2021-22 MISSIONS PONCTUELLES & INTÉRIM
+FORMATION
+2019 BACCALAURÉAT S - MENTION BIEN
+Master 1 en Ecole d’ingénieur du numérique, cours
+intégralement en Anglais.
+2020-25 EFREI - INGÉNIEUR - BIG DATA & MACHINE L.
+2024 AWS - CLOUD PRACTITIONER
+2024 HUGGING FACE - DEEP RL CERTIFICATION
