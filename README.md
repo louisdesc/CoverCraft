@@ -1,17 +1,19 @@
 # CoverCraft - Cover Letter Automation Script
 
-This script is designed to automate the process of generating cover letters for job applications. It integrates with the OpenAI API to create personalized letters by matching the job description with the applicant's profile.
+CoverCraft streamlines the process of creating personalized cover letters for job applications by leveraging the power of OpenAI's GPT models. It automatically matches the applicant's profile with job descriptions to generate tailored cover letters, enhancing your job application process.
 
 ## Features
 
-- Reads job and profile information from text files.
-- Utilizes the OpenAI API to generate a customized cover letter.
-- Extracts and cleans the generated data to fit a specific letter format.
-- Exports the finalized cover letter to a text file, named according to the job position and company.
+- **Automated Customization:** Generates cover letters that align the applicant's skills and experiences with job descriptions.
+- **OpenAI Integration:** Utilizes OpenAI's GPT models for intelligent text generation and customization.
+- **Multi-Job Processing:** Supports processing multiple job applications, creating individual cover letters for each.
+- **Dynamic Template Usage:** Adapts a user-defined cover letter template to fit the specifics of each job application.
+- **Simplified File Management:** Organizes job descriptions, profile information, and output cover letters in a structured directory.
 
 ## Prerequisites
 
-To run this script, you need to have Python installed on your machine. Additionally, the `openai` Python package must be installed and configured with your OpenAI API key.
+- **Python:** Ensure Python is installed on your system.
+- **OpenAI API Key:** An OpenAI API key is required to access the GPT models.
 
 ## Setup
 
@@ -24,26 +26,33 @@ To run this script, you need to have Python installed on your machine. Additiona
      pip install openai
      ```
 
-## Usage
+## Project Structure
 
-1. **Prepare Input Files:**
-   - Place `job_info.txt`, `profile_info.txt`, and `letter_raw.txt` in the same directory as the script. These files should contain the job description, your profile information, and the raw format for the cover letter, respectively.
+This project is organized to facilitate easy management of input files and output cover letters. Below is an overview of the key directories and files:
+
+- **`data/` Directory:** Serves as the root folder for input and template files.
+  - **`jobs/` Subdirectory:** Contains individual text files for each job description. File names should start with `job_info_` and end with `.txt` to be recognized by the script.
+  - **`profile_info.txt`:** A single file that holds the applicant's skills, experiences, and any other relevant information.
+  - **`letter_raw.txt`:** Defines the cover letter template. This file should outline the desired structure and content format for the generated letters.
+
+## How to Use
+
+Follow these steps to prepare your application materials and run the script:
+
+1. **Prepare Your Materials:**
+   - Populate the `data/jobs/` directory with text files for each job you're applying to. Each file should contain the job description and title.
+   - Update `data/profile_info.txt` with your personal profile, including skills, experiences, and achievements relevant to your job search.
+   - Customize the cover letter format in `data/letter_raw.txt` to match your preferred style and structure.
 
 2. **Run the Script:**
-   - Execute the script in a Jupyter notebook or any Python interpreter. The script is divided into sections for easy understanding and modification.
+   - Execute the main script. It will process each job description in the `data/jobs/` directory, using your profile information and the template from `letter_raw.txt` to generate tailored cover letters.
 
-3. **Review and Export:**
-   - The script will generate a cover letter based on the inputs and export it to a text file named after the job position and company.
+3. **Review and Distribute:**
+   - Generated cover letters will be saved in the `CL/` directory, named after the target company and position. Review each letter for personal touches before sending.
 
-## Input File Formats
+## Output Details
 
-- **job_info.txt:** Should contain the job description.
-- **profile_info.txt:** Should include details about your skills and experiences.
-- **letter_raw.txt:** Must have the template or format you wish the cover letter to follow.
-
-## Output
-
-- The script exports the generated cover letter to a text file, formatted as `CL/CL - [Position] - [Company].txt`, where `[Position]` and `[Company]` are extracted from the processed data.
+The script generates and stores each cover letter in a structured format within the `CL/` directory. The naming convention is `[Company] - [Position].txt`, making it straightforward to locate and review letters for specific applications.
 
 ## Example Result
 https://bouyguestelecom-recrute.talent-soft.com/offre-de-emploi/emploi-alternance-developpeur-ia-test-f-h_47683.aspx
