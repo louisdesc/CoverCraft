@@ -2,8 +2,8 @@
 .DS_Store
 
 # Ignore everything in the jobs/ directory
-jobs/*
-CL/*
+data/jobs/*
+data/CL/*
 
 # Except for this specific file
 !jobs/example.txt

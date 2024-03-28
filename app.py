@@ -72,10 +72,10 @@ def process_all_jobs(jobs_directory, profile_info, letter_raw):
 
 
 def main():
-    applications_directory = "" 
-    profile_info_path = os.path.join(applications_directory, "profile_info.txt")
-    letter_raw_path = os.path.join(applications_directory, "letter_raw.txt")
-    jobs_directory = os.path.join(applications_directory, "jobs")
+    data_directory = "data" 
+    profile_info_path = os.path.join(data_directory, "profile_info.txt")
+    letter_raw_path = os.path.join(data_directory, "letter_raw.txt")
+    jobs_directory = os.path.join(data_directory, "jobs")
     
     # Read the common files
     profile_info = read_file(profile_info_path)
