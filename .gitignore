@@ -1,3 +1,10 @@
 .env
 .DS_Store
-CL/
+
+# Ignore everything in the jobs/ directory
+jobs/*
+CL/*
+
+# Except for this specific file
+!jobs/example.txt
+
