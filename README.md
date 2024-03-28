@@ -43,7 +43,7 @@ To run this script, you need to have Python installed on your machine. Additiona
 
 ## Output
 
-- The script exports the generated cover letter to a text file, formatted as `CL - [Position] - [Company].txt`, where `[Position]` and `[Company]` are extracted from the processed data.
+- The script exports the generated cover letter to a text file, formatted as `CL/CL - [Position] - [Company].txt`, where `[Position]` and `[Company]` are extracted from the processed data.
 
 ## Example Result
 https://bouyguestelecom-recrute.talent-soft.com/offre-de-emploi/emploi-alternance-developpeur-ia-test-f-h_47683.aspx
