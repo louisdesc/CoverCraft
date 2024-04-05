@@ -32,27 +32,28 @@ def prepare_messages(profile_info, job_info, letter_format):
     ]
 
 
-
-def process_job_application(profile_info, letter_raw, job_info_filename, jobs_directory):
+def process_job_application(profile_info, letter_raw, job_info_filename):
+    """Processes a single job application."""
     job_info = read_file(job_info_filename)
     job_name = os.path.splitext(os.path.basename(job_info_filename))[0]
     print(f"Processing: {job_name}")
     
     messages = prepare_messages(profile_info, job_info, letter_raw)
-    completion = create_openai_completion("gpt-4-0125-preview", messages)
+    # completion = create_openai_completion("gpt-4-0125-preview", messages)
+    completion = create_openai_completion("gpt-3.5-turbo-0125", messages)
     
 
     if completion:
         result_raw = json.loads(completion.choices[0].message.content)
+        # print(result_raw) # DEBUG
 
         # Prepare export content
         link_to_the_job = job_info[0]
         export_content = f"{link_to_the_job}\n\n{result_raw['Objet']}\n{result_raw['Contenu']}"
         
+        num_file = job_info_filename[9:-4] # Remove job_info_ and .txt
         # Define export path
-        export_directory = os.path.join(jobs_directory, "..", "CL")
-        os.makedirs(export_directory, exist_ok=True)
-        file_path = os.path.join(export_directory, f"CL/{result_raw['Entreprise']} - {result_raw['Poste'].replace('/', '-')}.txt")
+        file_path = f"CL/{result_raw['Entreprise']} - {num_file} - {result_raw['Poste'].replace('/', '-')}.txt"
 
         
         # Write the content to file
@@ -63,13 +64,14 @@ def process_job_application(profile_info, letter_raw, job_info_filename, jobs_di
         print("Failed to get a response from the OpenAI API.")
     print("============================================\n")
 
-
 def process_all_jobs(jobs_directory, profile_info, letter_raw):
+    """Processes all job applications in a directory."""
     for filename in os.listdir(jobs_directory):
         if filename.startswith("job_info_") and filename.endswith(".txt"):
             job_info_filename = os.path.join(jobs_directory, filename)
-            process_job_application(profile_info, letter_raw, job_info_filename, jobs_directory)
-
+            # print(job_info_filename) # DEBUG
+            
+            process_job_application(profile_info, letter_raw, job_info_filename)
 
 def main():
     data_directory = "data" 
